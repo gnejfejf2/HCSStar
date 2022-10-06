@@ -9,18 +9,18 @@ let package = Package(
         .iOS(.v10)
     ],
     products: [
-        .library(name: "HCSStarRatingView", targets: ["HCSStarRatingView"]),
+        .library(name: "HCSStar", targets: ["HCSStar"]),
     ],
     dependencies: [
         
     ],
     targets: [
         .target(
-            name: "HCSStarRatingView",
+            name: "HCSStar",
             dependencies: [
             ],
             path: "Sources",
-            publicHeadersPath: "HCSStarRatingView/Header"
+            publicHeadersPath: "HCSStar/Header"
         )
     ]
 )
