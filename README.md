@@ -1,0 +1,1 @@
+HCSStarRatingView Swift Package Manager
